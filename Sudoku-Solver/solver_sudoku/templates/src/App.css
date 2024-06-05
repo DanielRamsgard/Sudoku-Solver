@@ -1,0 +1,172 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.cellInput {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    padding: 0px;
+    border: 1px solid black;
+    color: black;
+}
+
+.cellInputted {
+    background-color: rgb(41 37 36);
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    padding: 0px;
+    border: 1px solid rgb(22 22 22);
+    color: white;
+}
+
+.tableFalse {
+    border-collapse: collapse;
+    border: 3px solid rgb(115 115 115);
+    background-color: rgb(115 115 115);
+}
+
+.tableFalseFalse {
+    border-collapse: collapse;
+    border: 3px solid rgb(115 115 115);
+    background-color: rgb(115 115 200);
+    animation: borderFlash 0.5s ease forwards;
+}
+
+@keyframes borderFlash {
+    0% {
+        border-color: rgb(185 28 28);
+    }
+    50% {
+        border-color: rgb(185 28 28);
+    }
+    100% {
+        border-color: rgb(115, 115, 200);
+    }
+}
+
+.tableTrue {
+    border-collapse: collapse;
+    border: 3px solid rgb(101 163 13);
+    background-color: rgb(115 115 115);
+}
+
+ td {
+    padding: 0px;
+}
+
+.App-header {
+    background-color: rgb(22 22 22);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.buttonContainer {
+    margin-top: 20px;
+}
+
+.checkButtonFalse {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 12px 20px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.checkButtonFalse:hover {
+    background-color: rgb(200,200,200);
+}
+
+.checkButtonTrue {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 12px 20px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.checkButtonTrue:hover {
+    background-color: rgb(200,200,200);
+}
+
+.solveButton {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 12px 20px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.solveButton:hover {
+    background-color: rgb(200,200,200);
+}
+
+.resetButton {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 12px 20px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.resetButton:hover {
+    background-color: rgb(200,200,200);
+}
+
+.bBorder {
+    border-bottom: 2px solid black;
+}
+
+.rBorder {
+    border-right: 2px solid black;
+}
+
+.header {
+    margin-bottom: 20px;
+    font-size: 55px;
+    font-weight: bold;
+}
