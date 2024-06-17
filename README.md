@@ -1,5 +1,5 @@
 # Sudoku Solver
-Sudoku Solver is a robust application that provides near-instantaneous board solutions to Sudoku boards. The application was built using Django, React, PostgreSQL, Docker, Docker Compose, Nginx, Gunicorn, AWS EC2, and Railway. Play here: 54.225.36.165 (paste this ip address into any browser).
+Sudoku Solver is a robust application that provides near-instantaneous board solutions to Sudoku boards. The application was built using Django, React, PostgreSQL, Docker, Docker Compose, Nginx, Gunicorn, AWS EC2, and Railway.
 
 ## Landing Page
 ![Landing Page](./media/landing.png)
